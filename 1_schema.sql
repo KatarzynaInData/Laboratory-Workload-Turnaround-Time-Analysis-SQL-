@@ -1,3 +1,12 @@
+/* =========================================================
+File: 1_schema.sql
+Database: full_lab_project
+Description: Database schema definition for the laboratory project
+Purpose:
+- Creates the core database structure (full_lab_project)
+- Defines all relational tables and data types
+- Establishes Primary and Foreign Key relationships for data integrity
+========================================================= */
 create database full_lab_project;
 use  full_lab_project;
 
