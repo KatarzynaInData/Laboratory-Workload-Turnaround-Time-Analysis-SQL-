@@ -127,8 +127,9 @@ ORDER BY occurrence_count DESC;
    2. ROUTINE STABILITY: High-volume routine tests (Morphology, Glucose) show excellent 
       stability, with deviations from the median as low as +0.4 to +0.6 minutes.
    
-   3. PROCESS BOTTLENECKS: CRP is a primary bottleneck, consistently exceeding the target 
-      median by 18 minutes, primarily due to technical repetitions (REP).
+   3. PROCESS BOTTLENECKS: CRP is a primary bottleneck, consistently exceeding the target median by 18 minutes,
+      primarily due to mandatory sample dilutions (DIL) caused by high analyte concentrations exceeding
+ 	  the initial measurement range.
    
    4. STAT EFFICIENCY: Life-saving tests (Gazometria) consistently achieve times 
       BELOW the target median (-1.1 min), confirming effective prioritization for Emergency/ICU.
