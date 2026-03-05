@@ -32,6 +32,11 @@ The analysis is built on a relational database schema named full_lab_project, co
 • Common Table Expressions (CTEs/WITH): Structuring complex queries for better readability.
 • Conditional Logic: CASE WHEN for flagging delayed orders and status classification.
 
+📊 Interactive Dashboard & Business Insights
+While the SQL backend handles data extraction and modeling, the final analysis is presented through an interactive Power BI dashboard. This visualization translates complex datasets into actionable insights for laboratory management.
+
+![Dashboard Overview](lab_project_dashboard.png)
+
 📈 Key Insights
 • Pareto Concentration (44/80): Analysis shows that 11 out of 25 tests (44%) generate nearly 80% (78.22%) of the total volume. 
 The "Big Three" (Morphology, CRP, Electrolytes) alone account for 48.22% of the workload.
